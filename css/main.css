@@ -4,3 +4,19 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-size: 10px;
+	font-family: "Montserrat",sans-serif;
+}
+
+.container-menu-top{
+	margin: 0 auto;
+	position: relative;
+}
+
+.menu-header{
+	background-attachment: fixed;
+	background-image: url("/img/capa-madmax2.jpg");
+
+}
