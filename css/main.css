@@ -65,3 +65,21 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.menu-item{
+	margin: 0 25px;
+}
+
+.menu-item a,
+.menu-titulo-detalhado a {
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu-item a:hover{
+	color: #e4bb23;
+}
