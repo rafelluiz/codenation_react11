@@ -277,7 +277,7 @@ body {
 	width: 100%;
 	z-index: 1;
 }
-.item-lista-filme .desc-filme-item{
+.item-lista-filme:hover .desc-filme-item{
 	opacity: 1;
 	visibility: visible;
 }
