@@ -111,6 +111,12 @@ body {
 	width: 100%;
 }
 
+.container-cabecaho-intermediario{
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
 .cabecalho-intermediario .container-cabecaho-intermediario{
 	position: relative;
 	z-index: 2;
@@ -184,6 +190,12 @@ body {
 	width: 100%;
 }
 
+.menu-titulo{
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
 .menu-titulo-detalhado{
 	align-items: center;
 	border-bottom: 1px solid rgba(0,0,0,0.08);
@@ -206,6 +218,12 @@ body {
 
 .menu-titulo-item a:hover{
 	box-shadow: inset 0 -1px 0 #e4bb23;
+}
+
+.lista-completa-filme{
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
 }
 
 .lista-filme{
@@ -295,3 +313,29 @@ body {
 	max-resolution: 10px 0;
 	display: flex;
 }
+.titulo-descricao-item{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #e4bb23;
+}
+
+.titulo-descricao-item:hover{
+	text-decoration: underline;
+}
+.like-titulo-nota{
+	margin: 0;
+	align-items: center;
+	display: flex;
+	font-size: 2em;
+	font-weight: bold;
+	justify-content: space-between;
+}
+.like-titulo-nota i{
+	color: #ccc;
+	cursor: pointer;
+}
+
+.like-titulo-nota i:hover{
+	color: #e74c3c;
+}
+/* teste codereview */
